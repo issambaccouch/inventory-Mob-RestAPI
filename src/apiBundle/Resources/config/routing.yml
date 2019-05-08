@@ -1,0 +1,39 @@
+api_getallcat:
+    path:     /getallcat
+    defaults: { _controller: apiBundle:Default:getallcat }
+
+api_getallprod:
+    path:     /getallprod
+    defaults: { _controller: apiBundle:Default:getallprod }
+
+api_findcat:
+    path:     /findcat/{idcp}
+    defaults: { _controller: apiBundle:Default:findcat }
+
+api_findprod:
+    path:     /findprod/{idpr}
+    defaults: { _controller: apiBundle:Default:findprod }
+
+api_newcat:
+    path:     /newcat
+    defaults: { _controller: apiBundle:Default:newcat }
+
+api_newprod:
+    path:     /newprod
+    defaults: { _controller: apiBundle:Default:newprod }
+
+api_deletecat:
+    path:     /deletecat/{idcp}
+    defaults: { _controller: apiBundle:Default:deletecat }
+
+api_deleteprod:
+    path:     /deleteprod/{idpr}
+    defaults: { _controller: apiBundle:Default:deleteprod }
+
+api_getmyprod:
+    path:     /getmyprod/{iduser}
+    defaults: { _controller: apiBundle:Default:getmyprod }
+
+api_updateprod:
+    path:     /updateprod/{idpr}/
+    defaults: { _controller: apiBundle:Default:updateprod }
